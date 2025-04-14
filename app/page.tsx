@@ -7,21 +7,12 @@ import { PartnersSection } from "@/components/partners-section"
 import { StartupShowcase } from "@/components/startup-showcase"
 import { JoinSection } from "@/components/join-section"
 import { StatsSection } from "@/components/stats-section"
-import { Footer } from "@/components/footer"
+import { YoungAILeadersSection } from "@/components/young-ai-leaders-section"
 
 export default function Home() {
   return (
     <main className="min-h-screen">
-      <NavBar />
-      <HeroSection />
-      <BarriersSection />
-      <StatsSection />
-      <AboutSection />
-      <FocusAreasSection />
-      <StartupShowcase />
-      <PartnersSection />
-      <JoinSection />
-      <Footer />
+      <YoungAILeadersSection />
     </main>
   )
 }

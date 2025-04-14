@@ -92,3 +92,19 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+.borde-superior {
+  border-top: 2px solid black;
+}
+
+.borde-inferior {
+  border-bottom: 2px solid black;
+}
+
+.borde-izquierdo {
+  border-left: 2px solid black;
+}
+
+.borde-derecho {
+  border-right: 2px solid black;
+}
