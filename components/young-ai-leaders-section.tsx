@@ -114,13 +114,13 @@ export function YoungAILeadersSection() {
             <div className="space-y-4 md:space-y-5 max-w-xs mx-auto">
               <Link 
                 href="/aplica"
-                className="block py-2 md:py-3 px-6 md:px-8 rounded-full bg-[url('/images/green-texture.jpg')] bg-cover text-white text-center font-semibold shadow-md hover:shadow-lg transition-all"
+                className="block py-2 md:py-3 px-6 md:px-8 rounded-full bg-[url('/images/green-texture.png')] bg-cover text-white text-center font-semibold shadow-md hover:shadow-lg transition-all"
               >
                 Aplica
               </Link>
               <Link 
                 href="/aliado"
-                className="block py-2 md:py-3 px-6 md:px-8 rounded-full bg-[url('/images/blue-texture.jpg')] bg-cover text-white text-center font-semibold shadow-md hover:shadow-lg transition-all"
+                className="block py-2 md:py-3 px-6 md:px-8 rounded-full bg-[url('/images/blue-texture.png')] bg-cover text-white text-center font-semibold shadow-md hover:shadow-lg transition-all"
               >
                 Quiero ser Aliado
               </Link>
@@ -361,6 +361,89 @@ export function YoungAILeadersSection() {
                 />
               </div>
               <h3 className="text-xl font-bold">Nombre Apellido</h3>
+            </div>
+          </div>
+        </div>
+
+        {/* Contact and Application Section */}
+        <div className="mt-16 md:mt-24 bg-gray-50">
+          <div className="container mx-auto px-4 sm:px-6">
+            <h2 className="text-2xl md:text-3xl font-bold text-center mb-12">Contacto</h2>
+            
+            <div className="max-w-3xl mx-auto">
+              {/* Contact Information */}
+              <div className="text-center mb-12">
+                <p className="text-lg mb-4">Para más información:</p>
+                <a href="mailto:contacto@youngaileadershub.org" className="text-lg font-medium hover:underline">
+                  contacto@youngaileadershub.org
+                </a>
+              </div>
+              
+              {/* Application Buttons */}
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl mx-auto">
+                <a 
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSczCt2no75iMdfVK-Zs_9HTbR7GC95mEQ3eW88r3GBUADhIYg/viewform?usp=sharing" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="py-3 px-6 rounded-full bg-[url('/images/green-texture.png')] bg-cover text-white text-center font-semibold text-lg shadow-md hover:shadow-lg transition-all flex items-center justify-center"
+                >
+                  Aplicar
+                </a>
+                
+                <a 
+                  href="https://forms.gle/gr4aJuZzNWEPdJ5y9" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="py-3 px-6 rounded-full bg-[url('/images/blue-texture.png')] bg-cover text-white text-center font-semibold text-lg shadow-md hover:shadow-lg transition-all flex items-center justify-center"
+                >
+                  Quiero ser aliado
+                </a>
+              </div>
+            </div>
+            
+            {/* Partners Section */}
+            <div className="mt-16">
+              <h3 className="text-xl md:text-2xl font-bold text-center mb-8">Nuestros Aliados</h3>
+              
+              <div className="flex justify-center">
+                <div className="w-40 h-40 p-4 bg-white rounded-lg shadow-md flex items-center justify-center">
+                  <Image 
+                    src="/images/ecci-logo.png" 
+                    alt="Universidad ECCI" 
+                    width={120} 
+                    height={120}
+                    className="object-contain"
+                  />
+                </div>
+              </div>
+            </div>
+            
+            {/* Additional Information */}
+            <div className="mt-16 max-w-4xl mx-auto">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                  <h3 className="text-xl font-bold mb-4">Áreas de Enfoque</h3>
+                  <ul className="list-disc pl-5 space-y-2">
+                    <li>Educación</li>
+                    <li>IA</li>
+                    <li>Energía</li>
+                  </ul>
+                  <p className="mt-4 text-sm text-gray-600">
+                    Próximamente artículos detallados sobre cada área de enfoque.
+                  </p>
+                </div>
+                
+                <div>
+                  <h3 className="text-xl font-bold mb-4">Sobre Nosotros</h3>
+                  <p className="mb-4">
+                    Somos parte de la red global de Young AI Leaders, conectados con la UIT - AI for Good.
+                  </p>
+                  <p>
+                    El Hub de Bogotá trabaja en colaboración con más de 100 hubs alrededor del mundo para 
+                    impulsar soluciones de IA que aborden los desafíos más urgentes de la humanidad.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
