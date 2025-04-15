@@ -214,7 +214,153 @@ export function YoungAILeadersSection() {
                 <div className="border-t border-black mt-6 md:mt-8 pt-6 md:pt-8">
                   <h3 className="text-center text-lg md:text-xl font-serif">¿En qué problemas enfocarnos?</h3>
                 </div>
+                
+                {/* Links section in right corner */}
+                <div className="mt-10 flex flex-col items-end text-right space-y-3">
+                  <Link href="#" className="text-sm md:text-base hover:underline">MENSAJE DEL LÍDER</Link>
+                  <Link href="#" className="text-sm md:text-base hover:underline">LA CARRERA HACIA IA PARA EL BIEN</Link>
+                  <Link href="#" className="text-sm md:text-base hover:underline">MIEMBROS</Link>
+                  <Link href="#" className="text-sm md:text-base hover:underline">MENTORES</Link>
+                  <Link href="#" className="text-sm md:text-base hover:underline">SOCIOS</Link>
+                </div>
               </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Scientific/AI Imagery Grid Section */}
+        <div className="mt-16 md:mt-24">
+          <Image 
+            src="/images/ai-grid.png" 
+            alt="AI visualization grid" 
+            width={1200} 
+            height={800} 
+            className="w-full"
+          />
+        </div>
+
+        {/* Team Members Section */}
+        <div className="mt-16 md:mt-24">
+          <h2 className="text-2xl md:text-3xl font-bold text-center mb-12">Nuestro Equipo</h2>
+          
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+            {/* Row 1 */}
+            <div className="flex flex-col items-center">
+              <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden mb-4">
+                <Image 
+                  src="/images/team/vs.jpeg" 
+                  alt="Jorge Esteban" 
+                  width={160} 
+                  height={160}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <h3 className="text-xl font-bold">Valeria Soler</h3>
+              <p className="text-center text-sm mt-2 max-w-xs">
+                "Tengo el trabajo soñado, impulsando el potencial de la tecnología para las problemáticas más críticas de la humanidad!"
+              </p>
+            </div>
+            
+            <div className="flex flex-col items-center">
+              <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden mb-4">
+                <Image 
+                  src="/images/team/dg.jpeg" 
+                  alt="ValeriaSoler" 
+                  width={160} 
+                  height={160}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <h3 className="text-xl font-bold">Daniel Gordillo</h3>
+              <p className="text-center text-sm mt-2 max-w-xs">
+                "El emprendimiento nace en cada uno de nosotros, impulsándonos a transformar el mundo con innovación y colaboración"
+              </p>
+            </div>
+            
+            <div className="flex flex-col items-center">
+              <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden mb-4">
+                <Image 
+                  src="/images/team/ar.jpeg" 
+                  alt="Alexandra Rojas" 
+                  width={160} 
+                  height={160}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <h3 className="text-xl font-bold">Alexandra Rojas</h3>
+              <p className="text-center text-sm mt-2 max-w-xs">
+                "Transformo datos en decisiones, y tecnología en impacto real"
+              </p>
+            </div>
+            
+            {/* Row 2 */}
+            <div className="flex flex-col items-center">
+              <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden mb-4">
+                <Image 
+                  src="/images/team/Sebsai.jpg" 
+                  alt="SebastianMelo" 
+                  width={160} 
+                  height={160}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <h3 className="text-xl font-bold">Sebastian Melo</h3>
+            </div>
+            
+            <div className="flex flex-col items-center">
+              <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden mb-4">
+                <Image 
+                  src="/images/team/jp.jpeg" 
+                  alt="Jesus Ortiz" 
+                  width={160} 
+                  height={160}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <h3 className="text-xl font-bold">Jesus Ortiz</h3>
+              <p className="text-center text-sm mt-2 max-w-xs">
+                "Cultivo futuros regenerativos hacia una transición ecosocial, transformando sitemas complejos a traves del diseño que conecta y trasciende"
+              </p>
+            </div>
+            
+            <div className="flex flex-col items-center">
+              <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden mb-4">
+                <Image 
+                  src="/images/team/joan-escobar.jpg" 
+                  alt="Joan Escobar" 
+                  width={160} 
+                  height={160}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <h3 className="text-xl font-bold">Joan Escobar</h3>
+            </div>
+            
+            {/* Row 3 */}
+            <div className="flex flex-col items-center">
+              <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden mb-4">
+                <Image 
+                  src="/images/team/team-member-7.jpg" 
+                  alt="Team Member" 
+                  width={160} 
+                  height={160}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <h3 className="text-xl font-bold">Nombre Apellido</h3>
+            </div>
+            
+            <div className="flex flex-col items-center">
+              <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden mb-4">
+                <Image 
+                  src="/images/team/team-member-8.jpg" 
+                  alt="Team Member" 
+                  width={160} 
+                  height={160}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <h3 className="text-xl font-bold">Nombre Apellido</h3>
             </div>
           </div>
         </div>
