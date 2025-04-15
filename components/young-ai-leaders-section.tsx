@@ -112,18 +112,22 @@ export function YoungAILeadersSection() {
             </div>
             
             <div className="space-y-4 md:space-y-5 max-w-xs mx-auto">
-              <Link 
-                href="/aplica"
+              <a 
+                href="https://docs.google.com/forms/d/e/1FAIpQLSczCt2no75iMdfVK-Zs_9HTbR7GC95mEQ3eW88r3GBUADhIYg/viewform?usp=sharing" 
+                target="_blank" 
+                rel="noopener noreferrer"
                 className="block py-2 md:py-3 px-6 md:px-8 rounded-full bg-[url('/images/green-texture.png')] bg-cover text-white text-center font-semibold shadow-md hover:shadow-lg transition-all"
               >
                 Aplica
-              </Link>
-              <Link 
-                href="/aliado"
+              </a>
+              <a 
+                href="https://forms.gle/gr4aJuZzNWEPdJ5y9" 
+                target="_blank" 
+                rel="noopener noreferrer"
                 className="block py-2 md:py-3 px-6 md:px-8 rounded-full bg-[url('/images/blue-texture.png')] bg-cover text-white text-center font-semibold shadow-md hover:shadow-lg transition-all"
               >
                 Quiero ser Aliado
-              </Link>
+              </a>
             </div>
           </div>
           
@@ -408,7 +412,7 @@ export function YoungAILeadersSection() {
               <div className="flex justify-center">
                 <div className="w-40 h-40 p-4 bg-white rounded-lg shadow-md flex items-center justify-center">
                   <Image 
-                    src="/images/ecci-logo.png" 
+                    src="/images/ecci-logo.jpg" 
                     alt="Universidad ECCI" 
                     width={120} 
                     height={120}
