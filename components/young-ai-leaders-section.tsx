@@ -252,7 +252,7 @@ export function YoungAILeadersSection() {
             <div className="flex flex-col items-center">
               <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden mb-4">
                 <Image 
-                  src="/images/team/vs.jpeg" 
+                  src="/images/team/vs1.png" 
                   alt="Jorge Esteban" 
                   width={160} 
                   height={160}
@@ -268,8 +268,8 @@ export function YoungAILeadersSection() {
             <div className="flex flex-col items-center">
               <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden mb-4">
                 <Image 
-                  src="/images/team/dg.jpeg" 
-                  alt="ValeriaSoler" 
+                  src="/images/team/dg.png" 
+                  alt="DanielGordillo" 
                   width={160} 
                   height={160}
                   className="w-full h-full object-cover"
@@ -284,7 +284,7 @@ export function YoungAILeadersSection() {
             <div className="flex flex-col items-center">
               <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden mb-4">
                 <Image 
-                  src="/images/team/ar.jpeg" 
+                  src="/images/team/ar.png" 
                   alt="Alexandra Rojas" 
                   width={160} 
                   height={160}
@@ -301,7 +301,7 @@ export function YoungAILeadersSection() {
             <div className="flex flex-col items-center">
               <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden mb-4">
                 <Image 
-                  src="/images/team/Sebsai.jpg" 
+                  src="/images/team/Sebsai.png" 
                   alt="SebastianMelo" 
                   width={160} 
                   height={160}
@@ -314,7 +314,7 @@ export function YoungAILeadersSection() {
             <div className="flex flex-col items-center">
               <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden mb-4">
                 <Image 
-                  src="/images/team/jp.jpeg" 
+                  src="/images/team/jp.png" 
                   alt="Jesus Ortiz" 
                   width={160} 
                   height={160}
@@ -330,41 +330,86 @@ export function YoungAILeadersSection() {
             <div className="flex flex-col items-center">
               <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden mb-4">
                 <Image 
-                  src="/images/team/joan-escobar.jpg" 
-                  alt="Joan Escobar" 
+                  src="/images/team/jc.png" 
+                  alt="Jorge Esteban Castañeda Lopez" 
                   width={160} 
                   height={160}
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h3 className="text-xl font-bold">Joan Escobar</h3>
-            </div>
-            
-            {/* Row 3 */}
-            <div className="flex flex-col items-center">
-              <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden mb-4">
-                <Image 
-                  src="/images/team/team-member-7.jpg" 
-                  alt="Team Member" 
-                  width={160} 
-                  height={160}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <h3 className="text-xl font-bold">Nombre Apellido</h3>
+              <h3 className="text-xl font-bold">Jorge Esteban</h3>
+              <h3 className="text-xl font-bold">Castañeda Lopez</h3>
+              <p className="text-center text-sm mt-2 max-w-xs">
+                "Creo en una inteligencia artificial que transforma vidas, impulsa el bienestar y construye una sociedad más humana y equitativa."
+              </p>
             </div>
             
             <div className="flex flex-col items-center">
               <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden mb-4">
                 <Image 
-                  src="/images/team/team-member-8.jpg" 
-                  alt="Team Member" 
+                  src="/images/team/da.png" 
+                  alt="Oscar Alejandro Pineda Alcalde" 
                   width={160} 
                   height={160}
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h3 className="text-xl font-bold">Nombre Apellido</h3>
+              <h3 className="text-xl font-bold">Oscar Alejandro</h3>
+              <h3 className="text-xl font-bold">Pineda Alcalde</h3>
+              <p className="text-center text-sm mt-2 max-w-xs">
+                "Desde el Derecho, impulso soluciones innovadoras para los desafíos éticos y regulatorios de la transformación tecnológica"
+              </p>
+            </div>
+            
+            <div className="flex flex-col items-center">
+              <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden mb-4">
+                <Image 
+                  src="/images/team/sg.png" 
+                  alt="Sebastián García Madrid" 
+                  width={160} 
+                  height={160}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <h3 className="text-xl font-bold">Sebastián García</h3>
+              <h3 className="text-xl font-bold">Madrid</h3>
+              <p className="text-center text-sm mt-2 max-w-xs">
+                "Antes de buscar transformar e impactar cualquier cosa, comprende los fundamentos que lo sostienen."
+              </p>
+            </div>
+            
+            {/* New team member 1 */}
+            <div className="flex flex-col items-center">
+              <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden mb-4">
+                <Image 
+                  src="/images/team/lg.png" 
+                  alt="Laura Zuluaga" 
+                  width={160} 
+                  height={160}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <h3 className="text-xl font-bold">Laura Zuluaga</h3>
+              <p className="text-center text-sm mt-2 max-w-xs">
+                "Mientras más profundamente deseemos comprender la vida, más urgente se vuelve conectar disciplinas."
+              </p>
+            </div>
+            
+            {/* New team member 2 */}
+            <div className="flex flex-col items-center">
+              <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden mb-4">
+                <Image 
+                  src="/images/team/team-member-10.jpg" 
+                  alt="Nuevo Miembro" 
+                  width={160} 
+                  height={160}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <h3 className="text-xl font-bold">Nuevo Miembro</h3>
+              <p className="text-center text-sm mt-2 max-w-xs">
+                "Innovando con propósito para resolver los desafíos más urgentes de nuestra sociedad."
+              </p>
             </div>
           </div>
         </div>
