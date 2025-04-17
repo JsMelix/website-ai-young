@@ -309,6 +309,9 @@ export function YoungAILeadersSection() {
                 />
               </div>
               <h3 className="text-xl font-bold">Sebastian Melo</h3>
+              <p className="text-center text-sm mt-2 max-w-xs">
+                "Conectando con iniciativas que me permitan retar mi potencial y creatividad"
+              </p>
             </div>
             
             <div className="flex flex-col items-center">
